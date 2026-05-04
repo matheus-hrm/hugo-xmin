@@ -1,38 +1,50 @@
 ---
 title: Home
 ---
+<div class="home-profile">
+  <img class="home-avatar" src="https://avatars.githubusercontent.com/u/49960367?v=4" alt="Profile photo">
+</div>
 
-[<img src="https://simpleicons.org/icons/github.svg" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/yihui/hugo-xmin)
+# blog
 
-# HUGO XMIN
+hi, im a 22 years old developer, cybersec analyst, computer science student 
 
-## _Keep it simple, but not simpler_
+<div
+  id="spotify-widget"
+  class="spotify-widget"
+  data-endpoint="https://api.mhrm.dev/spotify"
+  hidden
+>
+  <svg class="spotify-eq" width="24" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <rect x="12" y="2" width="1.5" height="1.5" rx="0.75" fill="currentColor">
+      <animate attributeName="width" values="-1.5;12;1.5" dur="1.2s" repeatCount="indefinite" begin="0s"></animate>
+      <animate attributeName="x" values="10;6;12" dur="1.2s" repeatCount="indefinite" begin="0s"></animate>
+    </rect>
+    <rect x="12" y="6" width="1.5" height="1.5" rx="0.75" fill="currentColor">
+      <animate attributeName="width" values="-1.5;12;1.5" dur="1.2s" repeatCount="indefinite" begin="0.2s"></animate>
+      <animate attributeName="x" values="10;6;12" dur="1.2s" repeatCount="indefinite" begin="0.2s"></animate>
+    </rect>
+    <rect x="12" y="10" width="1.5" height="1.5" rx="0.75" fill="currentColor">
+      <animate attributeName="width" values="-1.5;12;1.5" dur="1.2s" repeatCount="indefinite" begin="0.4s"></animate>
+      <animate attributeName="x" values="10;6;12" dur="1.2s" repeatCount="indefinite" begin="0.4s"></animate>
+    </rect>
+    <rect x="12" y="14" width="1.5" height="1.5" rx="0.75" fill="currentColor">
+      <animate attributeName="width" values="-1.5;12;1.5" dur="1.2s" repeatCount="indefinite" begin="0.6s"></animate>
+      <animate attributeName="x" values="10;6;12" dur="1.2s" repeatCount="indefinite" begin="0.6s"></animate>
+    </rect>
+    <rect x="12" y="18" width="1.5" height="1.5" rx="0.75" fill="currentColor">
+      <animate attributeName="width" values="-1.5;12;1.5" dur="1.2s" repeatCount="indefinite" begin="0.8s"></animate>
+      <animate attributeName="x" values="10;6;12" dur="1.2s" repeatCount="indefinite" begin="0.8s"></animate>
+    </rect>
+  </svg>
+  <a id="spotify-song-link" class="spotify-cover-link" href="#" aria-label="Open song on Spotify">
+    <img id="spotify-album-cover" class="spotify-cover" src="" alt="">
+  </a>
+  <div class="spotify-track">
+    <span class="spotify-label">listening to</span>
+    <a id="spotify-title" class="spotify-title" href="#"></a>
+    <span id="spotify-artist" class="spotify-artist"></span>
+  </div>
+</div>
 
-**XMin** is a Hugo theme written by [Yihui Xie](https://yihui.org) in about four hours: half an hour was spent on the Hugo templates, and 3.5 hours were spent on styling. The main motivation for writing this theme was to provide a really minimal example to beginners of Hugo templates. This XMin theme contains about 140 lines of code in total, including the code in HTML templates and CSS (also counting empty lines).
-
-
-``` bash
-find . -not -path '*/exampleSite/*' \( -name '*.html' -o -name '*.css' \) | xargs wc -l
-```
-
-```
-      12 ./layouts/single.html
-      20 ./layouts/list.html
-      13 ./layouts/terms.html
-       5 ./layouts/404.html
-       0 ./layouts/_partials/foot_custom.html
-       0 ./layouts/_partials/head_custom.html
-       9 ./layouts/_partials/footer.html
-      20 ./layouts/_partials/header.html
-      51 ./static/css/style.css
-       7 ./static/css/fonts.css
-     137 total
-```
-
-I can certainly further reduce the code, for example, by eliminating the CSS, but I believe a tiny bit of CSS can greatly improve readability. You cannot really find many CSS frameworks that only contain 50 lines of code.
-
-Although it is a minimal theme, it is actually fully functional. It supports pages (including the home page), blog posts, a navigation menu, categories, tags, and RSS. With [a little bit customization](https://github.com/yihui/hugo-xmin/blob/master/exampleSite/layouts/_partials/foot_custom.html), it can easily support LaTeX math expressions, e.g.,
-
-`$${\sqrt {n}}\left(\left({\frac {1}{n}}\sum _{i=1}^{n}X_{i}\right)-\mu \right)\ {\xrightarrow {d}}\ N\left(0,\sigma ^{2}\right)$$`
-
-All pages not under the root directory of the website are listed below. You can also visit the list page of a single section, e.g., [posts](/post/), or [notes](/note/). See the [About](/about/) page for the usage of this theme.
+<script src="/js/spotify.js" defer></script>
