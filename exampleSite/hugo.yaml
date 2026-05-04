@@ -1,4 +1,4 @@
-baseurl: "https://example.org/"  # please update this to your actual URL
+baseurl: "https://mhrm.dev/"
 languageCode: "en-us"
 title: "A minimal Hugo website"
 theme: "hugo-xmin"

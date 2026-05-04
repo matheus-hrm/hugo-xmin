@@ -23,6 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.128.0
+      SITE_BASE_URL: https://mhrm.dev/
     steps:
       - name: Install Hugo CLI
         run: |
@@ -51,10 +52,11 @@ jobs:
         run: |
           hugo \
             --minify \
+            --cleanDestinationDir \
             --source exampleSite \
             --themesDir ../.. \
             --theme hugo-xmin \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${SITE_BASE_URL}"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
