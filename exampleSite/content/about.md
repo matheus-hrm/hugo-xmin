@@ -8,8 +8,10 @@ author: Matheus Henrique
 </a>
 
 
-I am a security researcher, fullstack developer, computer science student 
+I am a security researcher, fullstack developer and computer science student  
+currently i'm working at Banco Do Brasil in cybersecurity, i study on Universidade Católica de Brasília
 
+some topics that interest me are functional programming, deep learning, compilers and many others
 
 
 <br>

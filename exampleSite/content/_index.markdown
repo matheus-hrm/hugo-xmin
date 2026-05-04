@@ -47,7 +47,7 @@ title: Home
 
 # blog
 
-hi, im a 22 years old developer, cybersec analyst, computer science student 
+hi, im a 22 years old developer, cybersec analyst, computer science student, some of my posts are displayed below 
 
 
 <script src="/js/spotify.js" defer></script>

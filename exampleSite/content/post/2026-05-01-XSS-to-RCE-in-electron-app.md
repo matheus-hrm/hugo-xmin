@@ -156,7 +156,6 @@ tags: ["electron", "rce", "xss"]
       const url = event.senderFrame?.url || event.sender.getURL();
       if (!url.startsWith('https://soundcloud.com/')) return;
 
-      // validate payload here
   });
 
   ### 4. Validate and limit metadata

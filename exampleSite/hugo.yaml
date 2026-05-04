@@ -26,7 +26,7 @@ menu:
 
 params:
   description: "A website built through Hugo and blogdown."
-  footer: "[GitHub](https://github.com/matheus-hrm)"
+  footer: "&copy; [contact](mailto:matheushrm.dev@proton.me) | [github](https://github.com/matheus-hrm) | [linkedin](https://www.linkedin.com/in/matheus-hrm/) | [twitter](https://x.com/obfuscacao)"
 
 markup:
   highlight:
