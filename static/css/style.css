@@ -49,17 +49,23 @@ pre code { background: none; }
 /* misc elements */
 img, iframe, video { max-width: 100%; }
 main { hyphens: auto; }
-.home-profile {
+.media-bar {
   display: flex;
   align-items: center;
   gap: 2em;
   margin: 1.5em 0 2em;
+}
+.home-profile {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
 }
 .home-avatar {
   width: 190px;
   height: 190px;
   object-fit: cover;
   border-radius: 50%;
+  border: 2px solid #a7c080;
 }
 .home-cert img {
   width: 92px;
@@ -70,11 +76,7 @@ main { hyphens: auto; }
   display: flex;
   align-items: center;
   gap: 0.8em;
-  margin: 1.5em 0;
-  padding: 0.75em;
-  background: #343f44;
-  border: 1px solid #4f585e;
-  border-radius: 5px;
+  min-width: 0;
 }
 .spotify-widget[hidden] {
   display: none;
@@ -127,7 +129,7 @@ blockquote {
 }
 
 @media (max-width: 520px) {
-  .home-profile {
+  .media-bar {
     gap: 1.25em;
   }
   .home-avatar {

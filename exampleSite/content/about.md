@@ -4,7 +4,7 @@ author: Matheus Henrique
 ---
 
 <a class="home-cert" href="https://www.credly.com/badges/9b00929d-eaf9-43e9-b674-fd625f8bb9b9/public_url">
-  <img src="https://images.credly.com/size/680x680/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob" alt="Certification badge">
+  <img src="/images/certification-badge.png" alt="Certification badge">
 </a>
 
 
